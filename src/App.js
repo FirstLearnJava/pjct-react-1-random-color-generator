@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="App">
       <div style={{ backgroundColor }}>
-        <p>background color {backgroundColor}</p>
+        <p>Generated Color: {backgroundColor}</p>
         <br />
         <button onClick={() => setBackgroundColor(getRandomColor())}>
           Generate
